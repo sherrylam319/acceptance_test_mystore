@@ -1,0 +1,10 @@
+{
+  "config": [
+    {
+      "browser": "chrome"
+      ,"spreadsheet_id": "1EMDSOFSNsvmFP7dKl47o9MUORxEciXeD_K-0KGQwvSA"
+      ,"val_range_name": "reg_info!B2:S2"
+      ,"key_range_name": "reg_info!B1:S1"
+    }
+  ]
+}
