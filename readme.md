@@ -87,5 +87,5 @@ To view the allure-report in the browser, run:
 
 Then you can view the test results on the allure report!
 
-<h3>Sources</h3>
+<h2>Sources</h2>
 This project is inspired by https://github.com/startrug/selenium-python-framework
