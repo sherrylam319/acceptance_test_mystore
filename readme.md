@@ -3,7 +3,7 @@
 <h1>Acceptance Test for My Store</h1>
 http://automationpractice.com/index.php
 
----
+
 <h2>Introduction</h2>
 
 This acceptance test using Selenium-Webdriver is a project aiming to improve my technical skills. It is written in python, adopts a data-driven approach using data feed via Google Sheet API, and can be displayed on the allure report. This project includes two main tests, a registration test and a login test.
@@ -14,7 +14,7 @@ The purpose of the registration test is to test if the user can fill the registr
 <h4>The Login Test</h4>
 The purpose of the login test is to test if the user can fill the login form and login successfully using the personal information that is filled on the registration form. 
 
----
+
 <h2>Setting up the test</h2>
 
 <h3>Download Python</h3>
