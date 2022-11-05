@@ -47,11 +47,11 @@ https://console.cloud.google.com/flows/enableapi?apiid=sheets.googleapis.com&aut
 <h3>Generate and download a service account key</h3>
 
 <ol>
-  <li>Click service accounts</li>
-  <li><Select an email</li>
-  <li>Click ‘Key’</li>
-  <li>Click the dropdown ‘Add Key’, and then select ‘Create new key’</li>
-  <li>Add the path of the key next to the slash on gsheet_api.py</li>
+ <li>Click service accounts</li>
+ <li>Select an email</li>
+ <li>Click ‘Key’</li>
+ <li>Click the dropdown ‘Add Key’, and then select ‘Create new key’ </li>
+ <li>Add the path of the key next to the slash on gsheet_api.py</li>
 </ol>
 
 ![the path](googleapi_path.png)
