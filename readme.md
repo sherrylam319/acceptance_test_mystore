@@ -9,10 +9,10 @@ http://automationpractice.com/index.php
 This acceptance test using Selenium-Webdriver is a project aiming to improve my technical skills. It is written in python, adopts a data-driven approach using data feed via Google Sheet API, and can be displayed on the allure report. This project includes two main tests, a registration test and a login test.
 <br/><br/>
 <h4>The Registration Test</h4>
-The purpose of the registration test is to test if the user can fill the registration form and register successfully, aßnd to test if the personal information the user fills on the registration page is consistent with the information displayed on the personal information page. 
+The purpose of the registration test is to test if the user can fill the registration form and register successfully, and to test if the personal information the user fills on the registration page is consistent with the information displayed on the personal information page. 
 <br/><br/>
 <h4>The Login Test</h4>
-The purpose of the login test is to test if the user can fill the login form and login successfully using the personal information that is filled on the registration form. 
+The purpose of the login test is to test if the user can fill the login form and login successfully using the personal information that is filled on the registration form beforehand. 
 
 
 <h2>Setting up the test</h2>
@@ -30,7 +30,7 @@ https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-e
 <br/><br/>
 
 <h3>Install the libraries on requirements.txt into your environment</h3>
-Run this command on the terminal of the test folder:
+Run this command in the directory of the project:
 
 `$ python3 -m pip install -r requirements.txt`
 <br/><br/>
@@ -57,12 +57,13 @@ https://console.cloud.google.com/flows/enableapi?apiid=sheets.googleapis.com&aut
 ![the path](googleapi_path.png)
 <br/><br/>
 
-<h3>Use the Google sheet template provided in the folder</h3>
+<h3>Customize the data filled using the Google sheet template</h3>
 <ul>
   <li>You can decide what data you want to send to the form by filling in the data on the green area.</li>
   <li>The test steps files inside the folder called ‘steps’ decide where the data is filled into. For example, the data below the cell with acc_email is filled in the email form on the registration page</li>
 </ul>
-  
+<p>The template: https://github.com/sherrylam319/acceptance_test_mystore/blob/master/sheet_api_template.xlsx</p>
+<br/>
 <h3>Share the google sheet with the service account email</h3>
 ![share the google sheet with your service account email](share.png)
 <br/><br/>
