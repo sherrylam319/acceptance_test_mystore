@@ -9,7 +9,7 @@ from tests.acceptance.utils.path import *
 
 @pytest.fixture(scope='class')
 def config():
-    file_to_open = path_param_1() / "MyStore/tests/acceptance/testcase/config.json"
+    file_to_open = path_param_2() / "My_Store_git/MyStore_acceptance_test/tests/acceptance/testcase/config.json"
     f = open(file_to_open)
     config_data = json.load(f)
     return config_data

@@ -29,8 +29,7 @@ class PersonalPage(BasePage, GsheetData):
     def click_personal_info_button(self):
         self.driver.find_element(*PersonalInfoLocators.PERSONAL_INFO_BUTTON).click()
 
-    @allure.title("Social title test")
-    @allure.description("Check if the social title is the title checked in the registration page")
+
     def check_social_title(self):
         data = self.get_data
         value = data.get('title')
@@ -42,8 +41,7 @@ class PersonalPage(BasePage, GsheetData):
             element = self.driver.find_element(*PersonalInfoLocators.RADIO_MRS_PI)
             assert element.is_selected()
 
-    @allure.title("First name test")
-    @allure.description("Check if the first name is the same as the one entered on registration page")
+
     def check_first_name(self):
         data = self.get_data
         value = data.get('first_name')
@@ -51,39 +49,34 @@ class PersonalPage(BasePage, GsheetData):
         element = self.driver.find_element(By.XPATH, f"//input[@id='firstname' and @value='{value}']")
         assert element.is_displayed()
 
-    @allure.title("Last name test")
-    @allure.description("Check if the last name is the same as the one entered on registration page")
+
     def check_last_name(self):
         data = self.get_data
         value = data.get('last_name')
 
         assert self.driver.find_element(By.XPATH, f"//input[@id='lastname' and @value='{value}']").is_displayed()
 
-    @allure.title("Email test")
-    @allure.description("Check if the email is the same as the one entered on registration page")
+
     def check_email(self):
         data = self.get_data
         value = data.get('acc_email')
 
         assert self.driver.find_element(By.XPATH, f"//input[@id='email' and @value='{value}']").is_displayed()
 
-    @allure.title("Birth day test")
-    @allure.description("Check if the day of birth is the same as the one entered on registration page")
+
     def check_birth_day(self):
         data = self.get_data
         value = data.get('day')
 
         assert self.driver.find_element(By.XPATH, f"//option[@value='{value}' and @selected='selected']").is_displayed()
 
-    @allure.title("Birth month test")
-    @allure.description("Check if the month of birth is the same as the one entered on registration page")
+
     def check_birth_month(self):
         data = self.get_data
         value = data.get('month')
         assert self.driver.find_element(By.XPATH, f"//option[contains(text(), '{value}') and @selected='selected']").is_displayed()
 
-    @allure.title("Birth year test")
-    @allure.description("Check if the year of birth is the same as the one entered on registration page")
+
     def check_birth_year(self):
         data = self.get_data
         value = data.get('year')

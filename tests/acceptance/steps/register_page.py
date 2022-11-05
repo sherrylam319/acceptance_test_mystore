@@ -122,7 +122,7 @@ class RegisterPageForm(BasePage, GsheetData):
 
         self.driver.find_element(*RegisterPageLocators.STATE).click()
 
-        file_to_open = path_param_1() / "MyStore/state_dropdown.html"
+        file_to_open = path_param_2() / "My_Store_git/MyStore_acceptance_test/state_dropdown.html"
         with open(file_to_open) as sd:
 
             data = self.get_data
@@ -143,7 +143,7 @@ class RegisterPageForm(BasePage, GsheetData):
     def set_country(self):
         self.driver.find_element(*RegisterPageLocators.COUNTRY).click()
 
-        file_to_open = path_param_1() / "MyStore/country_dropdown.html"
+        file_to_open = path_param_2() / "My_Store_git/MyStore_acceptance_test/country_dropdown.html"
         with open(file_to_open) as sd:
 
             data = self.get_data
