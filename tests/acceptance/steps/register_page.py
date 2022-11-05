@@ -1,5 +1,4 @@
 import allure
-from allure_commons.types import AttachmentType
 from selenium.webdriver.common.by import By
 from tests.acceptance.locators.login_register_page import RegisterPageLocators
 from tests.acceptance.page_model.base_page import BasePage

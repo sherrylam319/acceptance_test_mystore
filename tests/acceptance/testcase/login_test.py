@@ -6,7 +6,7 @@ from tests.acceptance.steps.login_page import LoginPageForm
 @pytest.mark.usefixtures("setup")
 class TestLogin:
 
-    @allure.title("Test login")
+    @allure.title("Test Login")
     @allure.description("This is the test of the login flow after registration")
     def test_registration(self, spreadsheet_id, val_range_name, key_range_name):
 

@@ -1,5 +1,4 @@
 import allure
-from allure_commons.types import AttachmentType
 from selenium.webdriver.common.by import By
 from tests.acceptance.page_model.base_page import BasePage
 from tests.acceptance.utils.google_sheet_data.gsheet_api import GsheetData

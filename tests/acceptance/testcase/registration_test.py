@@ -81,10 +81,6 @@ class TestRegistration:
 
 
 
-
-
-
-
-
-
-#pytest /Users/sherrylam/Documents/software_testing/browser_auto/My_Store_git/MyStore_acceptance_test/tests/acceptance/testcase/registration_test.py --alluredir=allure-report/
+#In the terminal, run:
+#1. pytest the/full/path/of/your/directory/My_Store_git/MyStore_acceptance_test/tests/acceptance/testcase/registration_test.py --alluredir=allure-report/
+#2. allure serve allure-report/

@@ -14,9 +14,8 @@ class GsheetData:
     def get_gsheet_data(self):
 
         SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
-        #SERVICE_ACCOUNT_FILE = path_param_1() / "the/full/path/of/your/service_account.json"
+        SERVICE_ACCOUNT_FILE = path_param_1() / "the/full/path/of/your/service_account.json"
 
-        SERVICE_ACCOUNT_FILE = path_param_2() / "My_Store_git/MyStore_acceptance_test/tests/acceptance/utils/google_sheet_data/service_account.json"
 
         credentials = service_account.Credentials.from_service_account_file(
                 SERVICE_ACCOUNT_FILE, scopes=SCOPES)
