@@ -1,5 +1,4 @@
 
-https://www.jetbrains.com/help/pycharm/markdown.html#preview
 
 <h1>Acceptance Test for My Store</h1>
 http://automationpractice.com/index.php
