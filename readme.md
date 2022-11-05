@@ -45,20 +45,24 @@ https://cloud.google.com/apis/docs/getting-started
 https://console.cloud.google.com/flows/enableapi?apiid=sheets.googleapis.com&authuser=1
 <br/><br/>
 <h3>Generate and download a service account key</h3>
-1. Click service accounts
-2. Select an email
-3. Click ‘Key’
-4. Click the dropdown ‘Add Key’, and then select ‘Create new key’
-5. Add the path of the key next to the slash on gsheet_api.py
+
+<ol>
+  <li>Click service accounts</li>
+  <li><Select an email/li>
+  <li>Click ‘Key’</li>
+  <li>Click the dropdown ‘Add Key’, and then select ‘Create new key’</li>
+  <li>Add the path of the key next to the slash on gsheet_api.py</li>
+ </ol>
 
 ![the path](googleapi_path.png)
 <br/><br/>
 
 <h3>Use the Google sheet template provided in the folder</h3>
-- You can decide what data you want to send to the form by filling in the data on the green area.
-- The test steps files inside the folder called ‘steps’ decide where the data is filled into. 
-For example, the data below the cell with acc_email is filled in the email form on the registration page n
-
+<ul>
+  <li>You can decide what data you want to send to the form by filling in the data on the green area.</li>
+  <li>The test steps files inside the folder called ‘steps’ decide where the data is filled into. For example, the data below the cell with acc_email is filled in the email form on the registration page</li>
+</ul>
+  
 <h3>Share the google sheet with the service account email</h3>
 ![share the google sheet with your service account email](share.png)
 <br/><br/>
