@@ -6,7 +6,7 @@ http://automationpractice.com/index.php
 ---
 <h2>Introduction</h2>
 
-This acceptance test using Selenium-Webdriver is a project aiming to improve my technical skills. It is written in python, adopts a data-driven approach using data feed via Google Sheet API, and can be displayed on the allure report.This project includes two main tests, a registration test and a login test.
+This acceptance test using Selenium-Webdriver is a project aiming to improve my technical skills. It is written in python, adopts a data-driven approach using data feed via Google Sheet API, and can be displayed on the allure report. This project includes two main tests, a registration test and a login test.
 <br/><br/>
 <h4>The Registration Test</h4>
 The purpose of the registration test is to test if the user can fill the registration form and register successfully, aßnd to test if the personal information the user fills on the registration page is consistent with the information displayed on the personal information page. 
