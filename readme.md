@@ -21,10 +21,11 @@ The purpose of the login test is to test if the user can fill the login form and
 https://www.python.org/downloads/
 <br/><br/>
 <h3>Create a virtual environment:</h3>
-1. Install pip
-2. Install virtual environment
-3. create a virtual environment for the test
-
+<ol>
+  <li>Install pip</li>
+  <li>Install virtualenv</li>
+  <li>create a virtual environment for the test</li>
+</ol>
 https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
 <br/><br/>
 
