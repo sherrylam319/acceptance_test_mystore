@@ -9,7 +9,7 @@ class DriverFactory:
         if config["config"][0]["browser"] == "chrome":
             driver = webdriver.Chrome(ChromeDriverManager().install())
             return driver
-        elif config["config"][0]["base_url"] == "safari":
+        elif config["config"][0]["browser"] == "safari":
             driver = webdriver.Safari()
             return driver
         raise Exception("Provide valid driver name")
