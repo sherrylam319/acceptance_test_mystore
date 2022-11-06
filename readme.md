@@ -1,4 +1,4 @@
-
+<meta name="google-site-verification" content="LAOzadIfp6YyMzoGzGkezjLROUCc7QpZI-hWIZhSewM" />
 
 <h1>Acceptance Test for My Store</h1>
 http://automationpractice.com/index.php
